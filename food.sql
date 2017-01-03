@@ -47,6 +47,10 @@ select cname, dname from
   )
 );
 
+-- chef c000 longer prepares pasta --
+
+delete from preps where cid is 100 and did is 100;
+
 -- schema def --
 
 CREATE TABLE chef
