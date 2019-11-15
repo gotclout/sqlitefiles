@@ -84,10 +84,10 @@ DROP TABLE preps -- Remove
   preps
 );
 
-TRUNCATE TABLE -- Empty
-(
-  dish
-);
+-- TRUNCATE TABLE -- Empty
+-- (
+--    dish
+-- );
 
 insert into chef values(100, "c000", 4.0001); -- above avg
 insert into chef values(200, "c111", 3.5001); -- above avg
